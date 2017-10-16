@@ -1,0 +1,20 @@
+Package: Package01
+Type: Package
+Title: for demo
+Version: 0.1.0
+Author: Ran Huo
+Maintainer: Ran Huo <ran.huo@hec.edu>
+Description: For demo.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: prenoms,
+    dygraphs,
+    assertthat,
+    dplyr,
+    readxl,
+    tidyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
