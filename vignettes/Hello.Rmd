@@ -1,6 +1,6 @@
 ---
-title: "Vignette Title"
-author: "Vignette Author"
+title: "Package1"
+author: "Ran Huo"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
