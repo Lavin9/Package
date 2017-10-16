@@ -15,3 +15,7 @@ the plot
 \description{
 To plot simultaneously the popularity of more than one name
 }
+\examples{
+draw_names(c("Vincent","Marie"))
+
+}

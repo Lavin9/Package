@@ -17,3 +17,7 @@ the plot
 \description{
 To plot the popularity of names in times
 }
+\examples{
+draw_a_name("Vincent","M")
+
+}

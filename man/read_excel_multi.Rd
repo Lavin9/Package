@@ -15,3 +15,8 @@ a list
 \description{
 Import all sheet from an excel file
 }
+\examples{
+\dontrun{
+read_excel_multi("/folder/toxlsxfile")
+}
+}

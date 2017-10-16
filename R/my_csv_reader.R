@@ -6,6 +6,10 @@
 #' @export
 #' @importFrom  utils read.csv2
 #' @import assertthat 
+#' @examples 
+#' \dontrun{
+#' my_csv_reader("../../path/to/folder")
+#' }
 
 my_csv_reader <- function(folder){
   l <- list.files(path = folder, pattern = ".*csv$",full.names = TRUE)

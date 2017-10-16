@@ -4,6 +4,10 @@
 #' @import readxl assertthat 
 #' @return a list 
 #' @export
+#' @examples
+#' \dontrun{
+#' read_excel_multi("/folder/toxlsxfile")
+#' }
 
 read_excel_multi <- function(file){
   all_sheets <- readxl::excel_sheets(file)
